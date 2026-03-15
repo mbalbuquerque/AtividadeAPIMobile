@@ -1,0 +1,80 @@
+/* CSS - Estilização */
+        body { 
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+                background-color: #121212; 
+                color: white;
+                display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                padding: 20px; }
+
+        .search-box { 
+                margin-bottom: 30px; 
+                display: flex; 
+                gap: 10px; 
+        }
+        input { 
+                padding: 12px; 
+                width: 300px; 
+                border-radius: 25px; 
+                border: none; 
+                outline: none; 
+                font-size: 16px; }
+
+        button { 
+                padding: 12px 25px; 
+                border-radius: 25px; 
+                border: none; 
+                background-color: #1DB954; 
+                color: white; 
+                font-weight: bold; 
+                cursor: pointer; 
+                transition: 0.3s; }
+
+        button:hover { 
+                background-color: #1ed760; 
+                transform: scale(1.05);
+        }
+        
+        #results { 
+                display: grid; 
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+                gap: 20px; 
+                width: 100%; 
+                max-width: 1000px; 
+        }
+        .card { 
+                background-color: #181818; 
+                padding: 15px; 
+                border-radius: 10px; 
+                text-align: center; 
+                transition: 0.3s; 
+        }
+
+        .card:hover { 
+                background-color: #282828; 
+        }
+
+        .card img { 
+                width: 100%; 
+                border-radius: 5px; 
+                margin-bottom: 10px;
+        }
+
+        .card h3 { 
+                font-size: 16px; 
+                margin: 10px 0 5px; 
+                white-space: nowrap; 
+                overflow: hidden; 
+                text-overflow: ellipsis; 
+        }
+
+        .card p { 
+                font-size: 14px; color: #b3b3b3; 
+                margin-bottom: 15px; 
+        }
+
+        audio { 
+                width: 100%;
+                height: 30px; 
+        }
