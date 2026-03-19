@@ -1,7 +1,7 @@
 /* CSS - Estilização */
         body { 
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-                background-color: blue; 
+                background-color: black; 
                 color: white;
                 display: flex; 
                 flex-direction: column; 
