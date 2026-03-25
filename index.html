@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade API</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="imagens/android192x192.png">
+    <link rel="apple-touch-icon" href="imagens/apple180x180.png">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+     
+
      <h1>Buscador de Músicas</h1>
-    
-    <div class="search-box">
-        <input type="text" id="termoBusca" placeholder="Artista, música ou álbum...">
-        <button onclick="buscarMusica()">Buscar</button>
-    </div>
 
-    <div id="results">
-        <!-- As músicas aparecerão aqui -->
-    </div>
+     <header>
+        <h1 onclick="irParaHome()" style="cursor:pointer">Music Explorer</h1>
+        <div class="search-box">
+            <input type="text" id="termoBusca" placeholder="O que deseja ouvir?">
+            <button onclick="buscarMusica()" class="search-btn">Buscar</button>
+        </div>
+    </header>
 
+    <main id="results">
+        </main>
 
     <script src="script.js"></script>
 </body>
-
-
 </html>
