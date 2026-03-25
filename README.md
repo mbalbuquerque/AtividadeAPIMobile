@@ -31,6 +31,6 @@ A aplicação realiza uma requisição que por fim recebe os dados solicitados p
 
 ## **Deployment**
 
-Link do deplyment no netlify [https://itunessample.netlify.app/]
+Link do deplyment no netlify [(https://trintasegundosdemusica.netlify.app/)]
 
 
