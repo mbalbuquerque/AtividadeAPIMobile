@@ -8,6 +8,7 @@ Elaboração de plataforma web com busca para alguma API pública. Foi utilizada
 
 O site foi desenvolvido com media queries para se adaptar a diferentes tamanhos de tela.
 O projeto foi pensado com prioridade para visualização em dispositivos móveis, conforme solicitado na atividade.
+Atribuido ao projeto o botão de favoritos, limpeza de cache e artistas mais ouvidos.
 
 💻 Desktop: layout com imagem lateral
 📱 Tablet: ajuste de espaçamento e fontes
@@ -29,8 +30,14 @@ Endpoint utilizado: [https://itunes.apple.com/search?term=]
 A aplicação realiza uma requisição que por fim recebe os dados solicitados pelo buscador.
 
 
+##  **PWA**
+
+ Lançado para aplicação mobile.
+
+
+
 ## **Deployment**
 
-Link do deplyment no netlify [(https://trintasegundosdemusica.netlify.app/)]
+Link do deplyment no netlify [()]
 
 
