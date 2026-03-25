@@ -1,7 +1,23 @@
 {
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
-  "display": "browser",
-  "scope": "/",
-  "start_url": "/"
+    
+  "name": "Buscador de música",
+  "short_name": "Músicas",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3f7fb",
+  "theme_color": "#1f6feb",
+  "description": "PWA simples para consultar músicas usando uma API pública.",
+   "icons": [
+    {
+      "src": "imagens/android-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "imagens/apple-180x180.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
+
