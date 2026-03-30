@@ -38,6 +38,6 @@ A aplicação realiza uma requisição que por fim recebe os dados solicitados p
 
 ## **Deployment**
 
-Link do deplyment no netlify [()]
+Link do deplyment no netlify [busacadordemusicapwa.netlify.app]
 
 
